@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
 
-
-/usr/sbin/sshd --help
-
+/usr/sbin/sshd -D
