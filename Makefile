@@ -3,6 +3,9 @@ build:
 	chmod +x entrypoint.sh
 	docker build -t javanile/fake-ssh-server .
 
+push: build
+	docker push javanile/fake-ssh-server
+
 destroy:
 	docker stop fake-ssh-server
 	docker rm -f fake-ssh-server
