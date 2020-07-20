@@ -1,5 +1,6 @@
 # fake-ssh-server
 
+![.github/workflows/super-linter.yml](https://github.com/javanile/fake-ssh-server/workflows/.github/workflows/super-linter.yml/badge.svg)
 [![Build Status](https://travis-ci.org/javanile/fake-ssh-server.svg?branch=master)](https://travis-ci.org/javanile/fake-ssh-server)
 
 This is used as a dummy SSH server in some of our integration tests.
